@@ -6,7 +6,7 @@ import aiohttp
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = "ضع_هنا_التوكن_الذي_أخذته_من_BotFather"
+BOT_TOKEN = "8434370493:AAEI0vpHNqZbx4V40QzMfbvh6hcv6YSRLkY"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
